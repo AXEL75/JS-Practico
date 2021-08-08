@@ -1,0 +1,99 @@
+.header{
+    background-color: coral;
+    color: white;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.body {
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.figuras{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-formas-geometricas-planas_23-2148376161.jpg?size=626&ext=jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+}
+
+.cuadrado{
+    margin: 25px 0px;
+    display: flex;
+    background-color: crimson;
+    flex-direction: column;
+    align-items: center;
+    min-height: 250px;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    padding: 0px 20px;
+    outline: none;
+    width: 50%;
+}
+
+.cuadrado__form{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    min-height: 150px;
+}
+
+::placeholder{
+    color: darkblue;
+    text-align: center;
+}
+
+.triangulo{
+    margin: 25px 0px;
+    display: flex;
+    background-color:purple;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    padding: 0px 20px;
+    outline: none;
+    width: 50%;
+}
+
+.triangulo__form{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    min-height: 200px;
+}
+
+.circulo{
+    margin: 25px 0px;
+    display: flex;
+    background-color:sandybrown;
+    flex-direction: column;
+    align-items: center;
+    min-height: 250px;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    padding: 0px 20px;
+    outline: none;
+    width: 50%;
+}
+
+.circulo__form{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    min-height: 150px;
+}

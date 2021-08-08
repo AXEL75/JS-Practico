@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <title>Figuras Geométricas | Curso Práctico de JavaScript</title>
 </head>
-<body>
-    <header>
+<body class="body">
+    <header class="header">
         <h1>
             Figuras Geométricas
         </h1>
-
         <p>Este es el primer taller del curso práctico de JS</p>
-
     </header>
-    <section>
+    <section class="figuras">
 
-        <section>
+        <section class="cuadrado">
             <h2>Calcula el área y perímetro del cuadrado</h2>
-            <form action="">
+            <form action="" class="cuadrado__form">
                 
                 <label for="InputCuadrado">
                     Escribe cuánto mide cada lado de tu cuadrado
@@ -34,9 +33,9 @@
             </form>
         </section>
         
-        <section>
+        <section class="triangulo">
             <h2>Calcula el área y perímetro del triángulo</h2>
-        <form action="">
+        <form action="" class="triangulo__form">
             <label for="InputTriangulo">
                 Escribe cuánto mide cada lado del triángulo
             </label>
@@ -53,13 +52,13 @@
         </form>
     </section>
     
-    <section>
+    <section class="circulo">
         <h2>Calcula el área y perímetro del círculo</h2>
-        <form action="">
+        <form action="" class="circulo__form">
             <label for="InputCirculo">
                 Escribe cuánto mide el radio de tu circulo
             </label>
-            <input id="InputCirculo" type="number">
+            <input id="InputCirculo" type="number" placeholder="Radio">
             <button type="button" onclick="CalcularPerimetroCirculo()">
                 Calcular el perímetro del circulo
             </button>
