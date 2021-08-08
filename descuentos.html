@@ -19,9 +19,21 @@
         <form action="">
             <label for="InputPrice">Escribe el precio de tu producto: </label>
             <input id="InputPrice" type="number">
-
+<!-- 
             <label for="InputDiscount">Escribe el descuento de tu producto: </label>
-            <input id="InputDiscount" type="number">
+            <input id="InputDiscount" type="number"> -->
+
+            <div>
+                <label for="cupons">Cupones de descuento: </label>
+                <select class="cupons" name="Cupons" id="cupons">
+                <option value="0">No tengo</option>
+                <option value="10">10%</option>
+                <option value="25">25%</option>
+                <option value="50">50%</option>
+                <option value="75">75%</option>
+                </select>
+            </div>
+            
             <button type="button" onclick="onClickButtonPriceDiscount()">
                 Calcular el precio con descuento
             </button>
